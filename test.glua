@@ -42,7 +42,7 @@ function M:set(name: string)
     table.insert(self.storage['int_array'], 19)
     pprint('insert value to array')
     -- 执行从合约账户转账到用户账户的操作
-    transfer_from_contract_to_address("ACTB3MmTLBoh8KSokqdk1pcN6zxBKxaVeUeRffffffffffffffffffffffffffffffff", "ALP", 10000)
+    transfer_from_contract_to_address("CPC8QXHxmQsaS2Gq56sjMSSPVavtEWnYnqXo", "CPC", 10000)
 end
 
 function M:get(arg: string)
